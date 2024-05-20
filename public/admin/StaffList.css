@@ -1,0 +1,182 @@
+
+#Header {
+    display: block;
+    position: relative;
+    height: 88px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 85px;
+    padding-right: 85px;
+    border-bottom-width: 0.8px;
+    line-height: 18px;
+    font-weight: 400;
+    font-size: 12px;
+    border-bottom: rgb(4, 7, 68) solid 10px;
+    background-color: aliceblue;
+  }
+
+  /* .Header-line {
+    background-color: #08399c;
+    width: 100%;
+    height: 10px;
+  } */
+  .row {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .col-lg-2.col-6 {
+    display: block;
+    box-sizing: border-box;
+    flex-basis: 16.6667%;
+    max-width: 16.6667%;
+    height: 100%;
+    position: relative;
+    text-align: left;
+  }
+  
+  .Logo {
+    box-sizing: border-box;
+    color: rgb(85, 85, 85);
+    display: block;
+    font-family: "Noto Sans JP", Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    height: 50px;
+    line-height: 18px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: 160px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  
+  .Logo h1 {
+    box-sizing: border-box;
+    color: rgb(4, 7, 68);
+    display: block;
+    font-family: "Noto Sans JP", Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    height: 50px;
+    line-height: 40px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-bottom: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-top: 20px;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: 160px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  .Logo h1 a {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(https://www.booknmeet.com/img/bnm/BOOKNMEET.svg);
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: 165px 30px;
+    box-sizing: border-box;
+    color: rgb(0, 184, 255);
+    cursor: pointer;
+    display: block;
+    font-family: "Noto Sans JP", Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    height: 30px;
+    line-height: 40px;
+    outline-color: rgb(0, 184, 255);
+    outline-style: none;
+    outline-width: 0px;
+    text-align: left;
+    text-decoration-color: rgb(0, 184, 255);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-indent: -9999px;
+    text-size-adjust: 100%;
+    transition-behavior: normal;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    width: 165px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  .col-lg-10.col-6 {
+    display: block;
+    box-sizing: border-box;
+    flex-basis: 83.3333%;
+    max-width: 83.3333%;
+    height: 100%;
+    position: relative;
+    text-align: left;
+  }
+  
+  .main-menu {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: -20px;
+  }
+  
+  .nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: end;
+  }
+  
+  .nav li {
+    display: inline-block;
+    height: 100%;
+    padding: 10px;
+  }
+  
+  .nav li a {
+    display: block;
+    color: rgb(32, 32, 121);
+    text-decoration: none;
+    line-height: 68px;
+    height: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    
+  }
+  
+  .nav li a small {
+    display: block;
+    color: rgb(8, 57, 156);
+    margin-top: -45px;
+    line-height: 65px;
+    font-size: 14px;
+  }
+  
+  .nav li:hover a {
+    color: #00b8ff; 
+  }
+  
+  .nav li a i {
+    font-size: 30px;
+   
+  }
+  * {
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  /* --------------------------- */
